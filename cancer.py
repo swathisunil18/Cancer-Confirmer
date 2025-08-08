@@ -45,7 +45,7 @@ fdw = float(input("Enter fractal_dimension_worst: "))
 
 result = model.predict([[rm,tm,pm,am,sm,cm,cvm,cpm,symm,fdm,rse,tse,pse,ase,sse,cse,cvse,cpse,symse,fdse,rw,tw,pw,aw,sw,cw,cvw,cpw,symw,fdw]])
 
-if result>=1:
+if result>=0.5:
     print("Cancerous")
 else :
     print("Non Cancerous")
